@@ -1,0 +1,11 @@
+spring:
+  jackson:
+    serialization.write_dates_as_timestamps: false
+  main:
+    banner-mode: "off"
+logging:
+  level:
+    com.mywebofthings.test: DEBUG
+
+sns.topicArn: arn:aws:sns:us-west-1:340295846707:lambda-test-topic
+sns.region: us-west-1
