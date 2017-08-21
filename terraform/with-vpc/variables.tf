@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 variable "lambda-jar" {
-  default = "../../target/spring-cloud-function-1.0-SNAPSHOT-aws.jar"
+  default = "../../target/serverless-spring-cloud-function-1.0-SNAPSHOT-aws.jar"
 }
 
 variable "dmz_subnet" {
